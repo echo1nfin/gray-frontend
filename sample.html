@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шаблон дисплея ЖК</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="dislay-container">
+        <div id="emergency-banner">
+            <p id="emergency-text">ЧС</p>
+        </div>
+
+        <div id="main-content">
+            <div id="widget-static">
+                <h2></h2>
+                <p id="static-rules"></p>
+                <p id="static-contacts"></p>
+            </div>
+
+            <div id="widget-news">
+                <h2></h2>
+                <div class="news-content">
+                    <p id="news-title"></p>
+                    <p id="news-date"></p>
+                    <p id="news-text"></p>
+                </div>
+            </div>
+
+            <div id="widget-parking">
+                <div class="conter-card-parking">
+
+                </div>
+                <div class="counter-card-pantry"></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
