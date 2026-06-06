@@ -72,12 +72,16 @@ body {
 
 }
 
-#news-content {
+#widget-news {
 
 }
 
-#news-content h2 {
+#widget-news h2 {
 
+}
+
+.news-content {
+    
 }
 
 #news-title {
@@ -100,6 +104,6 @@ body {
 
 }
 
-#counter-card-pantry {
+.counter-card-pantry {
 
 }
